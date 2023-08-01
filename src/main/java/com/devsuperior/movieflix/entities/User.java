@@ -128,4 +128,8 @@ public class User implements UserDetails, Serializable{
 	public boolean isEnabled() {
 		return true;
 	}
+
+	public Set<Role> getRoles() {
+		return roles;
+	}
 }
