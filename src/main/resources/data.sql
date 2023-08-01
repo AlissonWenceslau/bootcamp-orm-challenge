@@ -6,3 +6,8 @@ INSERT INTO tb_role (authority) VALUES ('ROLE_VISITOR');
 
 INSERT INTO tb_user_role (user_id,role_id) VALUES (1,1);
 INSERT INTO tb_user_role (user_id,role_id) VALUES (2,2);
+
+INSERT INTO tb_genre (id,name) VALUES (1,'Ação');
+INSERT INTO tb_genre (id,name) VALUES (2,'Comédia');
+INSERT INTO tb_genre (id,name) VALUES (3,'Drama');
+INSERT INTO tb_genre (id,name) VALUES (4,'Romance');
